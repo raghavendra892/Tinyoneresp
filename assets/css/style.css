@@ -1,0 +1,166 @@
+
+.headerSection{
+    background-color: #fcdb00;
+}
+
+.headerSection .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+    border: 0px;
+}
+
+.headerSection .navbar-brand {
+    padding: 0 15px;
+}
+
+.headerSection .navbar-default .navbar-nav>li>a {
+    color: #010101;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+.headerSection .header{
+    margin-bottom: 70px;
+}
+
+.inspire {
+    margin-top: 70px;
+}
+.ipad{
+    max-width: 100%;
+}
+
+
+.brandLinks a{
+    color: #010101;
+    margin-right: 15px;
+
+}
+
+.thumbInfo h5{
+    font-size: 22px;
+    color: #010101;
+    text-transform: capitalize;
+    margin: 0 0 15px;
+}
+
+.thumbInfo p{
+    font-size: 16px;
+    color: #898989;
+}
+
+.featureSection .thumbnail{
+    padding-top: 20px;
+    margin-bottom: 90px;
+}
+
+.featureSection{
+    padding-bottom: 10px;
+}
+
+/*--------- footerSection-------- */
+.footerSection{
+    background-color: #010101;
+}
+
+.footerSection .pri-heading{
+    color: #fcdb00;
+}
+
+.footerSection .sec-heading{
+    color: #898989;
+    margin-bottom: 45px;
+}
+
+.signupform{
+    margin-bottom: 80px;
+}
+
+/* .footerSection .brandLinks a{
+    color: #fcdb00;
+    margin-right: 15px;
+} */
+
+.footerSection .brandLinks{
+    margin-bottom: 135px;
+}
+
+
+.footerSection .brandLinks a:link, .footerSection .brandLinks a:visited{
+    color: #fcdb00;
+}
+
+
+.footerlink li, .footerlink a:link, .footerlink a:visited{
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+@media all and (max-width:900px){
+    .section {
+        padding: 60px 0;
+    }
+    .headerSection .header{
+        margin-bottom: 0;
+    }
+    .featureSection .mb-90{
+        margin-bottom: 30px;
+    }
+    .featureSection .thumbnail {
+        margin-bottom: 30px;
+    }
+    .btn-pri{
+        margin-left: 0;
+    }
+    .signupform, .footerSection .brandLinks{
+        margin-bottom: 40px;
+    }
+}
+
+/* --------------Css for Mobile---------------- */
+@media all and (max-width:600px) {
+    .section{
+        padding: 40px 0;
+    }
+    .headerSection .header{
+        margin-bottom: 0;
+    }
+    .inspire {
+        margin-top: 20px;
+    }
+    .ipad {
+        margin-top: 30px;
+    }
+    .featureSection .mb-90{
+        margin-bottom: 0;
+    }
+    .featureSection .thumbnail {
+        margin-bottom: 20px;
+    }
+
+    
+
+    .btn-pri{
+        margin-left: 0;
+    }
+    .signupform, .footerSection .brandLinks{
+        margin-bottom: 20px;
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+        background-size: #000;
+
+    }
+    .navbar-default .navbar-toggle{
+        border-color: #000;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #000;
+    }
+    .navbar-default .navbar-toggle:focus span.icon-bar, .navbar-default .navbar-toggle:hover span.icon-bar {
+        background-color: #fff;
+    }
+
+}
